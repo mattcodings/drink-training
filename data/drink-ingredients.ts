@@ -1,0 +1,76 @@
+export const alcohol = [
+  "2xo Bourbon",
+  "Aperol",
+  "Blue Curacao",
+  "Campari",
+  "Captain Morgan",
+  "Casamigos Blanco",
+  "Grand Marnier",
+  "Grey Goose La Poire",
+  "Grey Goose Vodka",
+  "Hendricks Gin",
+  "Kettle One Vodka",
+  "Malibu Rum",
+  "Meyers rum",
+  "Monkey 47 Gin",
+  "Patron Blanco",
+  "Rehorst Gin",
+  "Secco",
+  "St Germain Elderflower",
+  "Tangueray Gin",
+  "Tattersall Sour Cherry",
+  "Tito's Vodka",
+  "Tribuno Sweet Vermouth",
+  "Triple Sec",
+  "Vodka",
+];
+
+export const glass = [
+  "Collins Glass",
+  "Copper Mule Mug",
+  "Cocktail Glass",
+  "Old Fashioned Glass",
+];
+
+export const nonalcohol = [
+  "Angostura Bitters",
+  "Blueberry Hibiscus Simple Syrup",
+  "Brown Sugar Simple",
+  "Calabrian Hot Honey",
+  "Cucumber Simple Syrup",
+  "Egg White",
+  "Ginger Beer",
+  "Honey Simple Syrup",
+  "Lemon Juice",
+  "Lemonade",
+  "Lime Juice",
+  "Sage Simple Syrup",
+  "San Pellegrino Pompelmo",
+  "Soda Water",
+];
+
+export const garnish = [
+  "Blackberry",
+  "Blueberries",
+  "Cherry",
+  "Cracked Pepper",
+  "Cucumber Slice",
+  "Cucumber Slice In Glass",
+  "Filthy Cherry",
+  "Lime Wedge",
+  "Lime Wheel",
+  "Orange",
+  "Orange Peel",
+  "Pinch of Salt",
+  "Tajin Rim",
+];
+
+export const processList = [
+  "Shake and double strain over 3 round ice cubes",
+  "Shake and strain over new ice",
+  "Muddle basil leaves, build and top with San Pellegrino Pompelmo",
+  "Build in beaker, add ice and stir. Strain over large ice cube.",
+  "Smoke glass. While smoking, build old fashioned in beaker, add ice, stir and strain over large ice cube.",
+  "Build in mixer, dry shake, shake with ice & double strain into glass",
+  "Shake and Strain, top with secco",
+];
