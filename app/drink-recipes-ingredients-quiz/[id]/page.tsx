@@ -145,7 +145,7 @@ function Page({ params }: { params: { id: string } }) {
         <p className="text-2xl text-center my-10">{message}</p>
       </form>
 
-      <div className="flex justify-center gap-x-20">
+      <div className="flex justify-center gap-x-5">
         <Link
           href={`/drink-recipes-alcohol-quiz/${
             Number(drink?.id) === 0 ? drinks.length - 1 : Number(drink?.id) - 1

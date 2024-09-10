@@ -20,7 +20,7 @@ function RadioInput({
           className="hidden"
         />
         <span
-          className={`w-52 inline-block px-4 py-2 border-2 rounded-md transition-colors ${
+          className={`sm:w-[50%] md:w-52 inline-block px-4 py-2 border-2 rounded-md transition-colors ${
             selectedGlass === name ? "bg-green-500" : "bg-gray-300"
           }`}
         >
