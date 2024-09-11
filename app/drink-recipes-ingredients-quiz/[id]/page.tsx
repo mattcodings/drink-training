@@ -147,7 +147,7 @@ function Page({ params }: { params: { id: string } }) {
 
       <div className="flex justify-center gap-x-5">
         <Link
-          href={`/drink-recipes-alcohol-quiz/${
+          href={`/drink-recipes-ingredients-quiz/${
             Number(drink?.id) === 0 ? drinks.length - 1 : Number(drink?.id) - 1
           }`}
         >
@@ -156,7 +156,7 @@ function Page({ params }: { params: { id: string } }) {
           </button>
         </Link>
         <Link
-          href={`/drink-recipes-alcohol-quiz/${
+          href={`/drink-recipes-ingredients-quiz/${
             Number(drink?.id) === drinks.length - 1 ? 0 : Number(drink?.id) + 1
           }`}
         >
