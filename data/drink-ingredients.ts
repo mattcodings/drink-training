@@ -26,10 +26,13 @@ export const alcohol = [
 ];
 
 export const glass = [
+  "Cocktail Glass",
   "Collins Glass",
   "Copper Mule Mug",
-  "Cocktail Glass",
+  "Couple Glass",
+  "Martini Glass",
   "Old Fashioned Glass",
+  "Red Wine Glass",
 ];
 
 export const nonalcohol = [
@@ -44,9 +47,12 @@ export const nonalcohol = [
   "Lemon Juice",
   "Lemonade",
   "Lime Juice",
+  "Pineapple Juice",
   "Sage Simple Syrup",
+  "Simple Syrup",
   "San Pellegrino Pompelmo",
   "Soda Water",
+  "Sour Mix",
 ];
 
 export const garnish = [
@@ -59,6 +65,7 @@ export const garnish = [
   "Filthy Cherry",
   "Lime Wedge",
   "Lime Wheel",
+  "OJ",
   "Orange",
   "Orange Peel",
   "Pinch of Salt",

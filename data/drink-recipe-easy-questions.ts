@@ -68,7 +68,7 @@ export const drinks: Drink[] = [
       },
     ],
     process: "Shake and double strain over 3 round ice cubes",
-    garnish: ["Lime Wedge", "2 Blueberries"],
+    garnish: ["Lime Wedge", "Blueberries"],
   },
   {
     id: "2",
@@ -204,7 +204,7 @@ export const drinks: Drink[] = [
   {
     id: "7",
     name: "Smoked Old Fashioned",
-    glass: "Cocktail Glass",
+    glass: "Old Fashioned Glass",
     alcohol: [
       {
         type: "2xo Bourbon",
@@ -345,7 +345,7 @@ export const drinks: Drink[] = [
   {
     id: "12",
     name: "Blood Orange Aperol Spritz",
-    glass: "Red wine glass",
+    glass: "Red Wine Glass",
     alcohol: [
       {
         type: "Aperol",
@@ -364,7 +364,7 @@ export const drinks: Drink[] = [
     ],
     process: "Build in glass and stir",
 
-    garnish: ["Orange Wedge"],
+    garnish: ["Orange"],
   },
   {
     id: "13",
