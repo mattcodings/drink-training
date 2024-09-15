@@ -33,14 +33,15 @@ function Page({ params }: { params: { id: string } }) {
     console.log("Submitted values:", measurementInput);
     console.log(drinkMeasurements);
     const inputs = Object.values(measurementInput);
-    const sortedInputs = inputs.sort();
-    const sortedDrinkMeasurements = drinkMeasurements?.sort();
+    console.log(inputs);
+    // const sortedInputs = inputs.sort();
+    // const sortedDrinkMeasurements = drinkMeasurements?.sort();
+    // console.log(sortedInputs);
+    // console.log(sortedDrinkMeasurements);
     const correct =
       drink?.process === processInput &&
-      sortedInputs.length === sortedDrinkMeasurements?.length &&
-      sortedInputs.every(
-        (item, index) => item === sortedDrinkMeasurements[index]
-      );
+      drinkMeasurements.length === inputs?.length &&
+      inputs.every((item, index) => item === drinkMeasurements[index]);
     function mergeArraysToMap(
       keys: string[],
       values: string[]
@@ -62,7 +63,7 @@ function Page({ params }: { params: { id: string } }) {
 
     const correctMeasurements = mergeArraysToMap(
       drinkIngredients,
-      sortedDrinkMeasurements
+      drinkMeasurements
     );
     let measurementsString = "";
     for (const [key, value] of Object.entries(correctMeasurements)) {
@@ -74,7 +75,11 @@ function Page({ params }: { params: { id: string } }) {
       setMessage(<span className="text-green-500 text-3xl">Correct!</span>);
     } else {
       setMessage(
-        `Sorry, that's incorrect. ${drink?.name} contains: ${measurementsString}`
+        `Sorry, that's incorrect. ${
+          drink?.name
+        } contains: ${measurementsString}. ${
+          drink?.process ? `The process is  ${drink?.process}` : ""
+        }`
       );
     }
     setQuestionAnswered(true);
