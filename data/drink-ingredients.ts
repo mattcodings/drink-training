@@ -29,7 +29,7 @@ export const glass = [
   "Cocktail Glass",
   "Collins Glass",
   "Copper Mule Mug",
-  "Couple Glass",
+  "Coupe Glass",
   "Martini Glass",
   "Old Fashioned Glass",
   "Red Wine Glass",

@@ -228,7 +228,7 @@ export const drinks: Drink[] = [
   {
     id: "8",
     name: "Bees Knees",
-    glass: "Couple Glass",
+    glass: "Coupe Glass",
     alcohol: [
       {
         type: "Monkey 47 Gin",
@@ -256,7 +256,7 @@ export const drinks: Drink[] = [
   {
     id: "9",
     name: "Pear Martini",
-    glass: "Couple Glass",
+    glass: "Coupe Glass",
     alcohol: [
       {
         type: "Grey Goose La Poire",
