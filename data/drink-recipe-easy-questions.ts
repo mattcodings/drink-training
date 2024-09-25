@@ -40,7 +40,8 @@ export const drinks: Drink[] = [
         measurement: "top off",
       },
     ],
-    process: "Shake and double strain over 3 round ice cubes",
+    process:
+      "Muddle 4-5 blackberries, shake and double strain over 3 round ice cubes",
     garnish: ["Lime Wheel", "Blackberry"],
   },
   {
@@ -67,7 +68,7 @@ export const drinks: Drink[] = [
         measurement: "top off",
       },
     ],
-    process: "Shake and double strain over 3 round ice cubes",
+    process: "Stir",
     garnish: ["Lime Wedge", "Blueberries"],
   },
   {

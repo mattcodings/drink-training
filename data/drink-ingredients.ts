@@ -73,7 +73,8 @@ export const garnish = [
 ];
 
 export const processList = [
-  "Shake and double strain over 3 round ice cubes",
+  "Muddle 4-5 blackberries, shake and double strain over 3 round ice cubes",
+  "Stir",
   "Shake and strain over new ice",
   "Muddle basil leaves, build and top with San Pellegrino Pompelmo",
   "Build in beaker, add ice and stir. Strain over large ice cube.",
