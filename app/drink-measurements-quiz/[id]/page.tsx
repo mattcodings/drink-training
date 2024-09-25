@@ -15,7 +15,7 @@ function Page({ params }: { params: { id: string } }) {
     drink?.nonalcohol.map((item) => item.measurement) || [];
   const drinkMeasurements = [...alcoholMeasurements, ...nonalcoholMeasurements];
   const [processInput, setProcessInput] = useState<string>(
-    "Shake and double strain over 3 round ice cubes"
+    "Muddle 4-5 blackberries, shake and double strain over 3 round ice cubes"
   );
   const [message, setMessage] = useState<JSX.Element | string>("");
   const [questionAnswered, setQuestionAnswered] = useState<boolean>(false);
