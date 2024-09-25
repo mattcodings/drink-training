@@ -99,7 +99,7 @@ export const drinks: Drink[] = [
         measurement: "top off",
       },
     ],
-    process: "",
+    process: "Stir",
     garnish: ["Cucumber Slice In Glass"],
   },
   {
